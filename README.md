@@ -1,7 +1,7 @@
 # PHP GPS Location Plotter
 GPS Location Plotter for PHP using Open Maps and leafletjs.com
   
-> This project was a simple implementation to bypass paying for Google Maps, i found a great implementation for JavaScript and converted it into a PHP HTML generator. All credits go to 1leafletjs.com and Open Maps for their Implementations.   
+> This project was a simple implementation to bypass paying for Google Maps, i found a great implementation for JavaScript and converted it into a PHP HTML generator. All credits go to leafletjs.com and Open Maps for their Implementations.   
    
 ### What Is This ?     
 The PHP GPS Location Plotter,     
