@@ -22,7 +22,7 @@ Send a GET or POST request to your script with the following parameters,
 `locations=51.5,-0.08,20,Example`  or multiple locations seperated by "|"    
    
   
-The locations parameter needs to be formatted as follows,
+The locations parameter needs to be formatted as follows,     
 Lattitude , Longitude , Radius , Url Encoded Title    
    
 Example GET Request,    
