@@ -79,7 +79,7 @@ $bits = explode(",",$location);
 $lat = htmlspecialchars($bits[0]);
 $lon = htmlspecialchars($bits[1]);
 $radius = htmlspecialchars($bits[2]);
-$name = htmlspecialchars(urldecode($bits[3]));
+$name = urldecode($bits[3]);
 if ($first)
 {
  $init = $lat.", ".$lon;
