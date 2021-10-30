@@ -12,6 +12,13 @@ I wanted to be able to send a simple GET request to the API and it return a simp
    
 ### How To Install ?   
 - Copy to PHP Server     
+    
+#### Quick Deployment    
+• Create a FREE account first if you do not yet have one:      
+ https://signup.heroku.com/         
+    
+• Deploy To Heroku     
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
   
 ### How To Use  ?
 Send a GET or POST request to your script with the following parameters,    
