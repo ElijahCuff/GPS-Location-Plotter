@@ -38,7 +38,7 @@ https://hackdex.ml/plotter/?showPath=true&showArea=true&zoom=12&locations=55.05,
 **/
 
 
-$token = "";
+$token = "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw";
  
 
 $locations = array("51.5,-0.09,6,This%20is%20a%20example%20at%2051.504");
