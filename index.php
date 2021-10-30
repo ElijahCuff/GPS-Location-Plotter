@@ -131,7 +131,7 @@ function hasParam($param)
 <body>
 
 
-<div id="map" style="width:102vw; height:97vh;margin:-10px;border:0px;"></div>
+<div id="map" style="width:102vw; height:105vh;margin:-10px;border:0px;"></div>
 <script>
 
 	var mymap = L.map('map').setView([<?php echo $init; ?>],<?php echo $zoom; ?>);
