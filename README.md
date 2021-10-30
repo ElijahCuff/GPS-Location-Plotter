@@ -11,6 +11,8 @@ I wanted to be able to send a simple GET request to the API and it return a simp
 
    
 ### How To Install ?   
+- Get MAP Tiles Token : https://www.mapbox.com/studio/account/tokens/      
+- Add Token to Index.php
 - Copy to PHP Server     
     
 #### Quick Deployment    
