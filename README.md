@@ -13,7 +13,7 @@ I wanted to be able to send a simple GET request to the API and it return a simp
 [![demo button](https://i.imgur.com/3Ugm8J7.jpg)](https://gps-plotter.herokuapp.com?showPath=true&showArea=true&zoom=12&locations=55.05,-0.09,1,Test%201|55.04,-0.09,8,Test%202|55.02,-0.04,4,Test%203) 
        
 
-![screen](screen.jpg)
+![screen](Screenshot_20211031_054929.jpg)
      
 ---    
 
