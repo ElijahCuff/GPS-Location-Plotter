@@ -45,5 +45,8 @@ Example GET Request,
 `index.php?locations=55.05,-0.09,1,Test%201|55.04,-0.09,8,Test%202|55.02,-0.04,400,Test%203`
 
       
-The URL Encoded Title can include HTML for styling the information returned in the pop-up
+The URL Encoded Title can include HTML for styling the information returned in the pop-up   
+  
+Complete Example URL,       
+https://gps-plotter.herokuapp.com/?showPath=true&showArea=true&zoom=12&locations=55.05,-0.09,1,Test%201%7C55.04,-0.09,8,Test%202%7C55.02,-0.04,4,Test%203
    
