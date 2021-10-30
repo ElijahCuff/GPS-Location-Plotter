@@ -36,10 +36,15 @@ Example,
 https://hackdex.ml/plotter/?showPath=true&showArea=true&zoom=12&locations=55.05,-0.09,1,Test%201|55.04,-0.09,8,Test%202|55.02,-0.04,4,Test%203
 
 **/
+
+
+$token = "";
  
 
 $locations = array("51.5,-0.09,6,This%20is%20a%20example%20at%2051.504");
 $zoom= "17";
+
+
 if(hasParam('locations'))
 {
 $get = urldecode($_REQUEST["locations"]);
@@ -131,7 +136,7 @@ function hasParam($param)
 
 	var mymap = L.map('map').setView([<?php echo $init; ?>],<?php echo $zoom; ?>);
 
-	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=<?php echo $token ?>', {
 		maxZoom: 20,
 		attribution: '',
 		id: 'mapbox/streets-v11',
